@@ -1,6 +1,12 @@
 # Flightgear-Dis-Adapter
 Creates a Socket to which Flightgear connects over the Multiplayer 
 
+## Installation
+Clone the repository and install dependencies:
+git clone https://github.com/shiiwyn/Flightgear-Dis-Adapter.git
+cd your-repository-name
+pip install -r requirements.txt
+
 Start & use
 fill in configuration & mapping file
 start python code
