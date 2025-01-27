@@ -1,2 +1,2 @@
 numpy==1.26.4
-opendis @ file:///C:/Users/wiechert_f_lop/python%20project/open-dis-python-master
+opendis @ https://github.com/open-dis/open-dis-python.git
