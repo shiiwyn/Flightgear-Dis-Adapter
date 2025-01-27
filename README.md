@@ -1,5 +1,8 @@
 # Flightgear-Dis-Adapter
-Creates a Socket to which Flightgear connects over the Multiplayer 
+Creates a Socket to which Flightgear Multiplayer connects 
+collects the xdr package from flightgear and fills in a pdu from dis with the package it receives and a mapping file for the plane model, then it sends this pdu over multicast or singlecast
+
+comming: receiving pdu packages and transforming into a xdr package to send to flightgear to see other planes in the same simulation
 
 ## Installation
 Clone the repository and install dependencies:
