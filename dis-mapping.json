@@ -1,0 +1,13 @@
+{
+    "model_name_to_entitytype": {
+      "apache": {"entityKind": 1, "domain": 1, "country": 840, "category": 2, "subcategory": 1, "specific": 0, "extra": 0},
+      "C130": {"entityKind": 1, "domain": 2, "country": 222, "category": 1, "subcategory": 2, "specific": 0, "extra": 0},
+      "f16": {"entityKind": 1, "domain": 2, "country": 225, "category": 1, "subcategory": 3, "specific": 0, "extra": 0},
+      "f18": {"entityKind": 1, "domain": 2, "country": 225, "category": 1, "subcategory": 9, "specific": 3, "extra": 0}
+    },
+    "names_in_flightgear_launcher": {
+        "apache": "Apache AH64 D Longbow", 
+        "C130": "C130 Hercules (YASim)",
+        "f16": "General Dynamics F-16CJ Block 52"
+    }
+  }
