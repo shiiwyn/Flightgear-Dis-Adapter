@@ -1,11 +1,12 @@
 {
     "udp_config": {  
         "listening_ip": "127.0.0.1",
-        "listening_port": 5005,
+        "flightgear_mp_port_out": 5005,
         "multicast_group": "239.192.66.1",
         "unicast_address": "192.168.1.100",
         "pdu_port": 3000,
-        "is_multicast": true
+        "is_multicast": true,
+        "flightgear_mp_port_in": 5010
     },
     "pdu_entity_ids": {
         "entityID": 1,
