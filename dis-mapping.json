@@ -1,13 +1,52 @@
 {
     "model_name_to_entitytype": {
-      "apache": {"entityKind": 1, "domain": 1, "country": 840, "category": 2, "subcategory": 1, "specific": 0, "extra": 0},
-      "C130": {"entityKind": 1, "domain": 2, "country": 222, "category": 1, "subcategory": 2, "specific": 0, "extra": 0},
-      "f16": {"entityKind": 1, "domain": 2, "country": 225, "category": 1, "subcategory": 3, "specific": 0, "extra": 0},
-      "f18": {"entityKind": 1, "domain": 2, "country": 225, "category": 1, "subcategory": 9, "specific": 3, "extra": 0}
+        "apache": {
+            "entityKind": 1,
+            "domain": 1,
+            "country": 840,
+            "category": 2,
+            "subcategory": 1,
+            "specific": 0,
+            "extra": 0
+        },
+        "C130": {
+            "entityKind": 1,
+            "domain": 2,
+            "country": 222,
+            "category": 1,
+            "subcategory": 2,
+            "specific": 0,
+            "extra": 0
+        },
+        "f16": {
+            "entityKind": 1,
+            "domain": 2,
+            "country": 225,
+            "category": 1,
+            "subcategory": 3,
+            "specific": 0,
+            "extra": 0
+        },
+        "f18": {
+            "entityKind": 1,
+            "domain": 2,
+            "country": 225,
+            "category": 1,
+            "subcategory": 9,
+            "specific": 3,
+            "extra": 0
+        }
     },
     "names_in_flightgear_launcher": {
-        "apache": "Apache AH64 D Longbow", 
+        "apache": "Apache AH64 D Longbow",
         "C130": "C130 Hercules (YASim)",
         "f16": "General Dynamics F-16CJ Block 52"
+    },
+    "entitytype_to_model_name": {
+        "1,2,225,1,9,3,0": {"modelName": "Aircraft/f18/Models/f18.xml"},
+        "1,2,225,1,3,0,0": {"modelName": "Aircraft/f16/Models/F-16.xml"},
+        "1,2,222,1,2,0,0": {"modelName": "Aircraft/C130/Models/c130.xml"},
+        "1,1,840,2,1,0,0": {"modelName": "Aircraft/apache/Models/apachemodel/apache-model.xml"}
     }
-  }
+}
+        
